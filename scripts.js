@@ -1,0 +1,12 @@
+var listaLivros = ["https://images-na.ssl-images-amazon.com/images/I/41tAhKjIMhL._SX322_BO1,204,203,200_.jpg",  "https://images-na.ssl-images-amazon.com/images/I/51JALh+8xrL._SX334_BO1,204,203,200_.jpg", "https://images-na.ssl-images-amazon.com/images/I/512Zje6NG8L._SX347_BO1,204,203,200_.jpg"]
+
+for (var i = 0; i < listaLivros.length; i++){
+  document.write("<img src=" + listaLivros[i] + ">")
+}
+
+alert("Conheça os 3 livros que marcaram a minha infância: ")
+alert("Livro 1. O MENINO DO DEDO VERDE Um clássico da literatura para crianças e jovens em todo o mundo. Era uma vez Tistu...Um menino diferente de todo mundo. Com uma vidinha inteiramente sua, o pequeno de olhos azuis e cabelos loiros, deixava impressões digitais que suscitavam o reverdecimento e a alegria. As proezas de seu dedo verde eram originais e um segredo entre ele e o velho jardineiro, Bigode, para quem seu polegar era invisível e seu talento, oculto, um dom do céu.O menino do dedo verde encanta gerações de leitores no Brasil e no mundo, há pelo menos cinco décadas, com a mensagem de esperança do menino que transforma tudo o que toca. A mágica história de Tistu, garoto com raro poder de semear o bem por onde passa, é uma aventura fantástica com final singelo e extraordinário.")
+
+alert("Livro 2. UMA PROFESSORA MUITO MALUQUINHA Ao evocar a “Professora Maluquinha”, o autor coloca nos olhos do leitor algumas lágrimas de emoção e de saudade. Humana, compreensiva, às vezes mal interpretada, a Professora Maluquinha, mais do que ensinar, dá a seus alunos a oportunidade de aprender com alegria, de guardar para sempre um grande amor pela leitura.")
+
+alert("Livro 3. POLLYANNA MENINA A pequena cidade de Beldingsville, no interior dos Estados Unidos, nunca mais seria a mesma depois da chegada de Pollyanna, uma garotinha órfã de 11 anos que ficou ao cuidados da tia rica, a irritadiça e intransigente senhora Polly Harrington. Com sua extraordinária visão de mundo a encantadora menina conquista os habitantes da cidadezinha e ensina a todos o seu incrível jogo de constante, um jogo capaz de transformar vidas e modificar destinos. Publicada como livro em 1913, a história da alegre e corajosa menina se tornou um clássico da literatura infanto-juvenil e vem cativando diferentes gerações de leitores com sua poderosa mensagem de otimismo e superação das dificuldades. E impossível não se encantar por Pollyanna, um exemplo inesquecível de amor, amizade e de como ver sempre o lado bom da vida.")
